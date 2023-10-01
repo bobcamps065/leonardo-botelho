@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+
+*
+::before,
+::after {
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position-y: center;
+    
+}
+
+.header{
+    background-image: url('image/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    position: sticky;
+    position: -webkit-sticky;
+    padding: 20px;
+}
+
+.card-header{
+     display: flex;
+     /* justify-content: center; */
+     align-items: center;
+}
+
+.h1{
+    color: #0047FE;
+   -webkit-text-stroke-color: whitesmoke;
+   -webkit-text-stroke-width: 1px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   align-items: center;
+   font-size: 30px;
+   font-weight: 300;
+   letter-spacing: 2px;
+}
+h4{
+    color: #0047FE; 
+    -webkit-text-stroke-color: whitesmoke;
+    -webkit-text-stroke-width: 1px;
+    font-family: Impact;
+    align-items: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.nav{
+    background-color: #212529;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    left: 0; 
+}
+
+.logo{
+    /* background-color: rgba(255, 255, 255, 0.405); */
+    /* border: transparent; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5px;
+    padding: 5px; */
+    width: 100px;
+    height: 100px;
+    border: solid 1px #0047FE;
+    border-radius: 50%;
+}
+/* ------------------------------------------------------------------------ */
+.link,a{
+    margin: 4px;
+    padding: 2px;
+    text-decoration: none; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+a:hover{
+    text-decoration: underline gold;
+}
+
+
+
+.blur{
+    /* background-color: rgb(0,0,0); Cor alternativa */
+    background-color: rgba(0,0,0, 0.4); /* Preto com opacidade/transparente*/
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+.card1{
+    display: flex;
+    justify-content: center;
+    height: 320px;
+}
+
+.card2{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.4);
+    align-items: center;
+    margin-top: 70px;
+    width: 22rem;
+    border: 1px solid #212529;
+}
+
+.img1{
+    float: left;
+    width: 150px;
+}
+
+
+.div1{
+ background-color: #0047FE;
+ border-radius: 10px;
+ margin-top: 10px;
+}
+
+
+input[type=button]{
+    margin-top: -8px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    background-color: #0047FE;
+}
+
+input[type=button]:hover{
+    color: whitesmoke;
+    background-color: #0047FE;
+}
+
+.divitem { 
+    justify-content: center;
+   width: 18rem;
+ }
+
+/* ------------------------------------------------------------------------------------------------ */
+.icon1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   cursor: pointer;
+}
+
+.icon2{
+    width: 30px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.p2{
+    padding: 1px;
+    color: yellow;
+    letter-spacing: 2px;
+}
+
+
+footer{
+    background-color:transparent;
+    background-color: rgba(0,0,0, 0.4);
+    color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 0px 3px whitesmoke;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+#vid{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}

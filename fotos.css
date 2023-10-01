@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+:root{
+   --color1: #212529;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    border: none;
+    font-family: 'Marko One', serif;
+}
+/* --------------------------------------------------------------------------------------- */
+.nav1{
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* --------------------------------------------------------------------------------------- */
+img{
+    width: 200px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.img-item{
+    width: 50px;
+}
+
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+/* --------------------------------------------------------------------------------------- */
+footer{
+    background-color: #212529;
+    text-align: center;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

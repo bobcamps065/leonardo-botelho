@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  
+  border: none;
+}
+
+body{
+    background-image: url("/image/christian.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+/* --------------------------------------------------------------- */
+h3{
+
+}
+
+form{
+    backdrop-filter: blur(2px);
+   display: flex;
+   flex-direction: column;
+   width: 18rem;
+} 
+
+
+label {
+    display: flex;
+    justify-content: start;
+    color: whitesmoke;
+}
+
+
+input[type=text],[type=email],[type=tel]{
+    background: transparent;
+    outline: 0;
+    border-bottom: 2px whitesmoke solid;  
+    color: whitesmoke;
+    
+}
+
+.btn {
+   background-color: rgba(0, 51, 255, 0.4);   
+}
+
+
+
+
+footer{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}    
